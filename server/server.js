@@ -22,7 +22,7 @@ mongoose.connect(process.env.URLDB, {
     useCreateIndex:true
 }, (err, resp) => {
     if (err) throw err;
-    console.log('Base de datos ONLINE');
+    console.log('Base de datos MONGO ONLINE');
 });
 
 app.listen(process.env.PORT, () => {
